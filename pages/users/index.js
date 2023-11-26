@@ -12,7 +12,7 @@ const Users = () => {
     <div className="p-32">
       <h1>Redux Toolkit Test</h1>
       <p>Hi {user.email} </p>
-      <p>token {token}</p>
+      <p>token found!, {token}</p>
     </div>
   );
 };
