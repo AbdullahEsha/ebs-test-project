@@ -11,8 +11,8 @@ const Users = () => {
   return (
     <div className="p-32">
       <h1>Redux Toolkit Test</h1>
-      <p>Hi {user.email} </p>
-      <p>token found!, {token}</p>
+      <p>Hi {user?.email} </p>
+      <p>token found!, {token && token}</p>
     </div>
   );
 };
